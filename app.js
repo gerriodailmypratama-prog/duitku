@@ -38,7 +38,7 @@
     }
 
     // FAB
-    $('#fab').addEventListener('click', openTransactionSheet);
+    $('#fab').addEventListener('click', () => openTransactionSheet());
     // Update SW
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.addEventListener('controllerchange', () => {
