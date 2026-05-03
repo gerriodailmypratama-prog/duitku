@@ -1,5 +1,5 @@
 /* Duitku Service Worker - offline first */
-const VERSION = 'duitku-v1.0.0';
+const VERSION = 'duitku-v1.0.1';
 const PRECACHE = VERSION + '-precache';
 const RUNTIME = VERSION + '-runtime';
 
